@@ -148,13 +148,13 @@ router.post("/forget-password", function (req, res, next) {
                 host: "smtp.gmail.com",
                 port: 465,
                 auth: {
-                    user: "dhanesh1296@gmail.com",
+                    user: "abul.hashan34@gmail.com",
                     pass: "sdoskatodgmrlfky",
                 },
             });
 
             const mailOptions = {
-                from: "Dhanesh Pvt. Ltd.<dhanesh1296@gmail.com>",
+                from: "Dhanesh Pvt. Ltd.<abul.hashan34@gmail.com>",
                 to: req.body.email,
                 subject: "Password Reset Link",
                 text: "Do not share this link to anyone.",
